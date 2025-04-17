@@ -1,0 +1,18 @@
+{
+	"name": "biome-config",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"format": "biome format --write .",
+		"lint:fix": "biome lint --write .",
+		"lint": "biome lint ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.8.1",
+	"dependencies": {
+		"@biomejs/biome": "^1.9.4"
+	}
+}
